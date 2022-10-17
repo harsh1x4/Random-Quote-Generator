@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dosis:wght@200;400&family=Great+Vibes&family=Hind&family=Jost&family=Kaushan+Script&family=La+Belle+Aurore&family=Lobster&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #5F1EBE;
+    /* background: linear-gradient(90deg, hsla(264, 73%, 43%, 1) 0%, hsla(256, 82%, 68%, 1) 100%, hsla(241, 85%, 71%, 1) 100%, hsla(214, 100%, 62%, 1) 100%); */
+    /* background: linear-gradient(121deg, #5F1EBE 0%, #3C91FF 100%); */
+}
+.wrapper{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    width: 100%;
+    background: #5F1EBE;
+    /* background: linear-gradient(90deg, hsla(264, 73%, 43%, 1) 0%, hsla(256, 82%, 68%, 1) 100%, hsla(241, 85%, 71%, 1) 100%, hsla(214, 100%, 62%, 1) 100%); */
+    /* background: linear-gradient(121deg, #5F1EBE 0%, hsla(256, 82%, 68%, 1)  100%); */
+    padding: 50px 40px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.5);
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+}
+.container p{
+    color: #fdd8d8;
+    line-height: 2;
+    font-size: 18px;
+}
+.container h3{
+    color: #ffffff;
+    margin: 20px 0 40px 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container button{
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5F1EBE;
+    cursor: pointer;
+}
