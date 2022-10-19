@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +7,32 @@
     <title>Quote-Generator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 </head>
-
 <body>
     <div class="wrapper">
-        <div class="container">
-            <!-- Default quote -->
-            <p id="quote">A person should not be too honest. Straight trees are cut first and honest people are screwed first.</p>
-            <h3 id="author">Chanakya</h3>
-
-            <!-- Without default quote -->
-            <!-- <p id="quote"></p>
-            <h3 id="author"></h3> -->
-            <button id="btn">Get Quote!</button>
+        <header>Quote of the Day</header>
+        <div class="content">
+            <div class="quote-area">
+                <i class="fas fa-quote-left"></i>
+                <p class="quote" id="quote">A person should not be too honest. Straight trees are cut first and honest people are screwed first.</p>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="author">
+                <span>__</span>
+                <span class="name" id="name">Chanakya</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="features">
+                <ul>
+                    <li class="sound" id="sound"><i class="fa-solid fa-volume-high"></i></li>
+                    <li class="twitter" id="twitter"><i class="fa-brands fa-twitter"></i></li>
+                </ul>
+                <button id="btn">New Quote!</button>
+            </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js" defer></script>
 </body>
-
 </html>
